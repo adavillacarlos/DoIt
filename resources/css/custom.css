@@ -1,0 +1,178 @@
+html,body{
+    margin: 0px;
+    padding:0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: #DBECFC;
+}
+
+
+/* NAVIGATION */ 
+
+nav a:hover{
+    background: #f3f3f3;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0;
+    color:inherit;
+}
+
+.nav-title{
+    font-size:20px;
+    font-weight: bolder;
+}
+
+.nav-shadow{
+    box-shadow: 0 40px 7px -32px rgba(0, 0, 0, 0.25);
+
+  }
+
+.sticky{
+    position:fixed; 
+    top: 0; 
+    width:100%;
+    overflow: hidden;
+}
+
+.sticky + #body{
+    padding-top: 20px;
+}
+
+
+/* SEARCH */
+
+.search{
+    margin:0px; 
+    padding:0px;
+}
+
+
+/* FORM */
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.todo-contain{
+    border: 1px solid black;
+    min-width: 450px;
+    padding: 30px 40px 20px 40px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    box-shadow: 5px 5px 4px 0px rgba(212,212,212,1);
+}
+
+
+.image{
+    margin-top: 13%;
+    max-height:475px;
+    float: right;
+    position: relative;
+}
+
+.picture{
+    max-height: 500px;
+    margin-top: 2%;
+}
+.image2{
+    margin-top: 5%;
+    max-height:400px;
+    float: right;
+    position: relative;
+}
+
+
+
+.ml2 {
+    margin-top: 7%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.0em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+.sub-title{
+    padding-bottom: 2%;
+    text-align:left;
+}
+
+
+/* PAGE 2 */
+.page-2{
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.table-contain{
+    background-color: #D1E3FA;
+}
+
+table{
+    border-radius: 3px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color:#3B323C;
+    text-align: center;
+    color:white;
+}
+
+#footer{
+    color: #fff; 
+    text-align: center;
+    height: 80px;
+    bottom:0px;
+    width:100%;
+    padding-top: 20px;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+
+
+/* TOPPER */
+
+ #topper{
+    position: fixed;
+    background-color: #5F8FDD; 
+    font-weight: bold; 
+    color: white; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 30px;
+    right: 20px; 
+    bottom: 20px; 
+    float: right;
+    display:none;
+}
+
+#topper:hover{
+    cursor: pointer;
+    background-color: #0537F3; 
+}
+
+/* .container{
+    margin-bottom: 10px;
+} */
