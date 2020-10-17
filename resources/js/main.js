@@ -12,3 +12,4 @@ function navFunction(){
         topper.style.display = "none";
     }
 }
+

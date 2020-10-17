@@ -149,7 +149,7 @@
             &nbsp;&nbsp;
         </section>   
         <a href='#topmost'>
-         <span id='topper'>&#11165;</span>
+         <span id='topper' >&#11165;</span>
         </a> 
     </div>
 

@@ -4,9 +4,11 @@
 	$dbpass = '';
 	$dbname = 'villacarlos_doit';
 	$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+    
     if(isset($_GET['edit_doit'])){
         $e_id=$_GET['edit_doit'];
     }
+
     if(isset($_POST['edit_doit'])){
         $edit_doit=$_POST['doit'];
         $edit_details = $_POST['details'];
@@ -20,6 +22,8 @@
             header("Location: index.php?updated");
         }
     }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -59,6 +63,7 @@
                         </div>
                         <div class="form-group">
                             <input class="btn btn-primary" value="Edit" type="submit" name="edit_doit">
+                            <a href="index.php"><input type="button" class="btn btn-secondary" value="Back" name="edit_back"  style="margin-left: 10px;"> </a>
                         </div>
                     </form>
                 </div>
