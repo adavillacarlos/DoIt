@@ -46,7 +46,7 @@
         </div>
             <div class="todo">
                 <div class="todo-contain">
-                    <h5 class="sub-title">Edit</h5>
+                    <h5 class="sub-title">View</h5>
                     <form action="" method="POST">
                         <?php
                             $sql = "SELECT * FROM doit where t_id = $e_id";
@@ -74,8 +74,8 @@
 </main>
 
 <footer class="footer mt-auto py-3">
-  <div class="container">
-  <span>&copy; Ada Pauline. All Rights Reserved  2020-2021 </span>
+  <div class="footer-contain">
+    <span>&copy; Ada Pauline. All Rights Reserved  2020-2021 </span>
   </div>
 </footer>
     <script src="resources/js/bootstrap.min.js" type="text/javaScript"></script>

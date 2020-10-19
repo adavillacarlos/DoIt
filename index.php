@@ -154,11 +154,10 @@
     </div>
 
     <footer class="footer mt-auto py-3">
-  <div class="container">
+  <div class="footer-contain">
     <span>&copy; Ada Pauline. All Rights Reserved  2020-2021 </span>
   </div>
 </footer>
-
 
     <script src="resources/js/bootstrap.min.js" type="text/javaScript"></script>
     <script src="resources/js/bootstrap.bundle.min.js" type="text/javaScript"></script>
