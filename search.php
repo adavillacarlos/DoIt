@@ -1,10 +1,12 @@
 <?php
 
-    $dbhost = 'localhost';
-	$dbuser = 'root';
-	$dbpass = '';
-	$dbname = 'villacarlos_doit';
-	$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+ $conn = mysqli_connect($server, $username, $password, $db);
     $query = "SELECT * FROM doit";
     $result = mysqli_query($conn,$query);
     if(isset($_POST['search'])){
