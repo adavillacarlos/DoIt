@@ -128,14 +128,13 @@ table{
 
 /* FOOTER */
 
-footer{
+.footer{
     background-color:#171219;
     text-align: center;
     color:white;
 }
 
 #footer-contain{
-    color: #171219; 
     text-align: center;
     height: 80px;
     bottom:0px;
