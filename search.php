@@ -119,7 +119,7 @@ $db = substr($url["path"], 1);
         </a> 
     </div>
 
-    <footer class="footer mt-auto py-3">
+    <footer class="footer mt-auto">
   <div class="footer-contain">
     <span>&copy; Ada Pauline. All Rights Reserved  2020-2021 </span>
   </div>
