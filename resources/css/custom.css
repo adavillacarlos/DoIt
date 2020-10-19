@@ -129,7 +129,7 @@ table{
 /* FOOTER */
 
 .footer{
-    background-color:#171219;
+    background-color:#171219 !important;
     text-align: center;
     color:white;
 }
