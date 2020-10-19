@@ -129,12 +129,12 @@ table{
 /* FOOTER */
 
 footer{
-    background-color:#3B323C;
+    background-color:#171219;
     text-align: center;
     color:white;
 }
 
-#footer{
+#footer-contain{
     color: #171219; 
     text-align: center;
     height: 80px;
