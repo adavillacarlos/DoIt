@@ -52,6 +52,7 @@ $db = substr($url["path"], 1);
     <link rel="stylesheet" href="resources/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/custom.css">
+    <link rel="icon" href="resources/images/Logo.png">
     <title>Do It!</title>
 </head>
 <body >
