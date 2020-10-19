@@ -77,7 +77,7 @@
 </main>
 
 <footer class="footer mt-auto py-3">
-  <div class="footer-contain">
+  <div class="container text-center">
     <span>&copy; Ada Pauline. All Rights Reserved  2020-2021 </span>
   </div>
 </footer>

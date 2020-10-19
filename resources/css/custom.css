@@ -130,12 +130,10 @@ table{
 
 .footer{
     background-color:#171219 !important;
-    text-align: center;
     color:white;
 }
 
 #footer-contain{
-    text-align: center;
     height: 80px;
     bottom:0px;
     width:100%;
